@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container
+{   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.x
+{
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #4f4fdb;
+    cursor: pointer;
+}
+.main-text
+{
+    color: #4f4fdb;
+}
+#colorPicker {
+    display: none; 
+}
